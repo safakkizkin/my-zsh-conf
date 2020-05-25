@@ -5,6 +5,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'preservim/nerdtree'
 
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
+
 Plug 'junegunn/vim-easy-align'
 
 Plug 'itchyny/lightline.vim'
@@ -81,3 +83,6 @@ set incsearch
 set ignorecase
 " Include only uppercase words with uppercase search term
 set smartcase
+
+" Set Relative Number Plugin
+set number rnu
