@@ -5,6 +5,10 @@ Plug 'morhetz/gruvbox'
 
 Plug 'preservim/nerdtree'
 
+" FZF
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 Plug 'junegunn/vim-easy-align'
